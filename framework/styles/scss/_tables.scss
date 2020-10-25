@@ -1,0 +1,87 @@
+// main: pdf.scss
+
+//
+// Tables
+//
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-size: $size-md;
+
+    th, td {
+        padding: 2px 4px;
+    }
+
+    .border {
+        border: 1px solid $color-black;
+
+        th, td {
+            border: 1px solid $color-black;
+        }
+    }
+
+    .border-bold {
+        border: 2px solid $color-black;
+
+        th, td {
+            border: 2px solid $color-black;
+        }
+    }
+
+    .border-bold-right {
+        border-right: 2px solid $color-black;
+
+        th, td {
+            border-right: 2px solid $color-black;
+        }
+    }
+
+    .border-bold-bottom {
+        border-bottom: 2px solid $color-black;
+
+        th, td {
+            border-bottom: 2px solid $color-black;
+        }
+    }
+
+    .no-border {
+        border: 0;
+    }
+
+    .no-border-top {
+        border-top: 0;
+
+        th, td {
+            border-top: 0;
+        }
+    }
+
+    .no-border-bottom {
+        border-bottom: 0;
+
+        th, td {
+            border-bottom: 0;
+        }
+    }
+}
+
+.layout {
+    display: none;
+    border: 0;
+    padding: 0;
+    margin: 0;
+
+    th, td {
+        border: 0;
+        padding: 0;
+        margin: 0;
+    }
+}
+
+.sign {
+    font-size: $size-sm;
+    border-top: 1px solid $color-black;
+    text-align: center;
+}

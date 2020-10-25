@@ -1,0 +1,20 @@
+// compileExpanded: ../css/$1.css, compileCompressed: ../css/$1.min.css
+
+@import "variables";
+@import "mixins";
+@import "html";
+@import "typography";
+@import "tables";
+@import "borders";
+@import "dividers";
+
+@import "data";
+//@import "layout";
+
+.print-slim {
+    @include div($size-xs, $size-sm, $size-2xs, 1px 3px);
+}
+
+.print-compact {
+    @include div($size-sm, $size-md, $size-xs, 2px 4px);
+}

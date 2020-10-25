@@ -1,0 +1,59 @@
+// main: pdf.scss
+
+//
+// Typography
+//
+
+h1, .h1 {
+    font-size: $size-xl;
+    font-weight: bold;
+}
+
+h2, .h2 {
+    font-size: $size-lg;
+    font-weight: bold;
+}
+
+small, .small {
+    font-size: $size-sm;
+
+    th, td {
+        font-size: $size-sm;
+    }
+}
+
+b, .b {
+    font-weight: bold;
+}
+
+.text-top {
+    vertical-align: top;
+
+    th, td {
+        vertical-align: top;
+    }
+}
+
+.text-bottom {
+    vertical-align: bottom;
+
+    th, td {
+        vertical-align: bottom;
+    }
+}
+
+.text-center {
+    text-align: center;
+
+    th, td {
+        text-align: center;
+    }
+}
+
+.text-right {
+    text-align: right;
+
+    th, td {
+        text-align: center;
+    }
+}

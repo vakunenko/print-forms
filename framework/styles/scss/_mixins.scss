@@ -1,0 +1,31 @@
+// main: pdf.scss
+
+//
+// Mixins
+//
+
+@mixin div($size-table, $size-h2, $size-small, $padd-table) {
+    table {
+        font-size: $size-table;
+
+        th, td {
+            padding: $padd-table;
+        }
+    }
+
+    h2, .h2 {
+        font-size: $size-h2;
+    }
+
+    small, .small {
+        font-size: $size-small;
+
+        th, td {
+            font-size: $size-small;
+        }
+    }
+
+    .sign {
+        font-size: $size-small;
+    }
+}
