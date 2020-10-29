@@ -18,5 +18,7 @@
 
     require_once ('content/pages/01_bill.php');              // Счёт
     require_once ('content/pages/02_bill_selfemployer.php'); // Счёт (самозанятый)
+    require_once ('content/pages/03_act.php');               // Акт
+    require_once ('content/pages/04_act_selfemployer.php');  // Акт (самозанятый)
 
     $mpdf->Output('print.pdf', 'I');
