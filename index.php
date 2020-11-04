@@ -20,5 +20,6 @@
     require_once ('content/pages/02_bill_selfemployer.php'); // Счёт (самозанятый)
     require_once ('content/pages/03_act.php');               // Акт
     require_once ('content/pages/04_act_selfemployer.php');  // Акт (самозанятый)
+    require_once ('content/pages/05_upd.php');               // УПД
 
     $mpdf->Output('print.pdf', 'I');
