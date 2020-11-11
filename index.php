@@ -22,5 +22,6 @@
     require_once ('content/pages/04_act_selfemployer.php');  // Акт (самозанятый)
     require_once ('content/pages/05_upd.php');               // УПД
     require_once ('content/pages/06_sf.php');                // Счёт-фактура
+    require_once ('content/pages/07_poa.php');               // Доверенность
 
     $mpdf->Output('print.pdf', 'I');
